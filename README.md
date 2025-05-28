@@ -1,18 +1,52 @@
-How to compile: run 'make' command in terminal in 2024201028_Assignment2 directory
+# POSIX Shell
 
-How to run: run './run.out' command in terminal in 2024201028_Assignment2 directory
+A modular, interactive shell implemented in C++, designed to mimic basic functionality of Unix shells. This shell supports built-in commands, process management, I/O redirection, pipelines, background execution, and more.
 
-How to exit: type 'exit' or press 'ctrl-d'
+---
 
-Requirements fulfilled:
+## How to Compile
 
-1. Display requirement
-2. cd, echo, pwd
-3. ls
-4. System commands (background/fg), with and without arguments
-5. pinfo
-6. search
-7. I/O redirection
-8. pipeline
-10. Simple signals
-12. a. 'history <num>'
+Run the following command in the project directory:
+
+```bash
+make
+```
+
+---
+
+## How to Run
+
+After compiling, run:
+
+```bash
+./run.out
+```
+
+---
+
+## How to Exit
+
+Type:
+
+```bash
+exit
+```
+
+or press `Ctrl+D`.
+
+---
+
+## Commands Implemented
+
+1. Basic shell commands: `cd`, `echo`, `pwd`
+2. `ls` command (with options)
+3. System commands (foreground and background, with/without arguments)
+4. `pinfo` – process info display
+5. `search` – file search utility
+6. Input/output redirection (`<`, `>`)
+7. Command piping (`|`)
+8. Simple signal handling
+9. Command history:
+
+   * `history <num>` – shows last *num* commands
+  

@@ -1,0 +1,21 @@
+4
+53
+543
+543
+53
+543
+543
+4
+53
+543
+543
+53
+543
+543
+cat file.txt | wc
+cat sample2.txt | head -7 | tail -5
+gedit
+gedit &
+history
+history 2
+exit
